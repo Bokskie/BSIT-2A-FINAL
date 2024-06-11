@@ -1,0 +1,67 @@
+.registraion-system
+{
+    background-color: #ffffff;
+    position: relative;
+    top: 2rem;
+    width: 320px;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    z-index: 100;
+}
+.registraion-form_section
+{
+    position: relative;
+    top: 10px;
+    width: 260px;
+    height: 380px;
+}
+.registraion-form_section .header_branch-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--large-fs);
+    font-weight: 550;
+}
+.registraion-form_section .header_branch-title img 
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+}
+.registraion-form_section .header-title_section
+{
+    font-size: var(--fs-medium);
+    padding: 10px 0px 20px 0px;
+}
+.registraion-form_section form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.registraion-form_section form input 
+{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--primary-background);
+}
+.registraion-form_section form button
+{
+    background-color: var(--secondary-background);
+    cursor: pointer;
+    color: #000000;
+    padding: 10px;
+} 
+.registraion-form_section form button:hover 
+{
+    background-color: var(--secondary-background-hover);
+}
+.registraion-form_section .registration-link
+{
+    padding-top: 20px;
+    font-size: 12px;
+}

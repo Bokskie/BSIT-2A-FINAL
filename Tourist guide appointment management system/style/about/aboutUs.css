@@ -1,0 +1,26 @@
+.about-us_container
+{
+    padding: 60px 0 60px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 1200px;
+    margin: auto;
+}
+.about-us_image img 
+{
+    width: 550px;
+    height: 400px;
+}
+.about-us_content .about-us_header
+{
+    font-size: var(--medium-fs);
+    font-weight: 550;
+    padding: 0 0 10px 0;
+}
+.about-us_content .about-us_paragraph
+{
+    font-size: var(--small-fs);
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}

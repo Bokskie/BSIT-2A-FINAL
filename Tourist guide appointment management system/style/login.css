@@ -1,0 +1,72 @@
+body 
+{
+    background-color: var(--gray-background);
+}
+.login-system
+{
+    background-color: #ffffff;
+    position: relative;
+    top: 3rem;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    z-index: 100;
+}
+.login-form_section
+{
+    position: relative;
+    top: 20px;
+    width: 260px;
+    height: 380px;
+}
+.login-form_section .header_branch-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--large-fs);
+    font-weight: 550;
+}
+.login-form_section .header_branch-title img 
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+}
+.login-form_section .header-title_section
+{
+    font-size: var(--medium-fs);
+    font-weight: 550;
+    padding: 10px 0px 20px 0px;
+}
+.login-form_section form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.login-form_section form input 
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--primary-background);
+}
+.login-form_section form button
+{
+    background-color: var(--secondary-background);
+    cursor: pointer;
+    padding: 10px;
+    font-size: var(--small-fs);
+    font-weight: 550;
+} 
+.login-form_section form button:hover
+{
+    background-color: var(--secondary-background-hover);
+}
+.login-form_section .registration-link
+{
+    padding-top: 20px;
+    font-size: var(--fs-small);
+}

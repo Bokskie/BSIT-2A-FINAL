@@ -1,0 +1,36 @@
+footer 
+{
+    background-color: #333;
+    padding: 10px;
+    margin-top: auto; 
+    width: 100%; 
+}
+.footer-contact
+{
+    padding-bottom: 10px;
+    color: #bebebe;
+    text-align: center;
+    font-size: var(--small-fs);
+}
+footer .icons 
+{
+    width: 400px;
+    margin: auto;
+}
+
+footer .icons ul 
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer .icons ul li i 
+{
+    color: #bebebe;
+}
+footer .footer-copyright
+{
+    padding-top: 10px;
+    color: #bebebe;
+    text-align: center;
+    font-size: var(--small-fs);
+}

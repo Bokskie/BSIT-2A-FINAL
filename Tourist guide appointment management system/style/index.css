@@ -1,0 +1,31 @@
+@import '../style/home/header.css';
+@import '../style/home/main.css';
+@import '../style/about/aboutUs.css';
+@import '../style/home/footer.css';
+@import '../style/package/package.css';
+@import '../style/viewPackage/allstyle.css';
+@import '../style/login.css';
+@import '../style/registration.css';
+
+*
+{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root
+{
+    --primary-background: #cd4545;
+    --secondary-background: #bcbe1e;
+    --tertiary-background: #000000;
+
+    --sidebar-background: #333;
+    --blurred-pink: rgba(255, 234, 244, 1.00);;
+    --secondary-background-hover: #c6c933;
+    --gray-background: #ebebeb;
+
+    --small-fs: 16px;
+    --medium-fs: 20px;
+    --large-fs: 26px;
+}

@@ -1,0 +1,57 @@
+@import '../admin/header.css';
+@import '../admin/sidebar.css';
+@import '../admin/main-content.css';
+
+
+*
+{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root
+{
+    --primary-background: #cd4545;
+    --secondary-background: #e9ec34;
+    --tertiary-background: #000000;
+
+    --sidebar-background: #333;
+    --blurred-pink: rgba(255, 234, 244, 1.00);;
+    --secondary-background-hover: #c1c43a;
+    --gray-background: #ebebeb;
+
+    --small-fs: 16px;
+    --medium-fs: 20px;
+    --large-fs: 26px;
+}
+body 
+{
+    background-color: var(--gray-background);
+}
+.main-container
+{
+    width: 100%;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 60px 1fr 1fr;
+    grid-template-columns: 160px 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main-content main-content"
+        "sidebar main-content main-content"
+    ;
+}
+#sidebar {
+    background-color: var(--sidebar-background);
+    grid-area: sidebar;
+}
+
+#header {
+    background-color: var(--primary-background);
+    grid-area: header;
+}
+
+#main-content {
+    grid-area: main-content;
+}

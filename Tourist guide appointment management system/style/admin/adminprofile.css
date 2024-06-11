@@ -1,0 +1,118 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.profile-page {
+    width: 96%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+}
+
+.profile-page_header {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333333;
+    position: relative;
+}
+
+.profile-page_header i {
+    margin-right: 10px;
+    color: #333333;
+}
+
+.current-profile {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-profile_header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555555;
+    text-align: center;
+}
+
+.current-profile p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666666;
+}
+
+.current-profile p strong {
+    color: #333333;
+}
+
+.update-profile_header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.profile-page form input[type="text"],
+.profile-page form input[type="email"],
+.profile-page form input[type="password"],
+.profile-page form button {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 10px;
+}
+
+.profile-page form input[type="text"]:focus,
+.profile-page form input[type="email"]:focus,
+.profile-page form input[type="password"]:focus {
+    border-color: #888888;
+    outline: none;
+}
+
+.profile-page form button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-page form button:hover {
+    background-color: #555555;
+}
+
+.registerbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.registerbutton:hover {
+    background-color: #555555;
+}
+.sidebar-profile_button
+{
+    background-color: #a0a0a0d0;
+}

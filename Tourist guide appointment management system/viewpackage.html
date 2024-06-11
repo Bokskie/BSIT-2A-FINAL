@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Management System</title>
+
+    <link rel="stylesheet" href="style/index.css" type="text/css">
+
+    <link rel="icon" type="image/x-icon" href="./image/logo.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="openTab('tab1')">
+
+
+    <div class="header-container">
+        <div class="header_margin">         
+            <div class="header_content">
+                <div class="header_logo-section">
+                    <a href="index.html"><img src="./image/logo.jpg" alt="tourist-logo"></a>
+                    <a class="header-paragraph" href="index.html">HOME</a>
+                    
+                    <a class="header-paragraph" href="aboutus.html">ABOUT-US</a>
+                </div>
+                <div class="header_login-section">
+                    <a class="login-button" href="login.php" target="_blank">LOGIN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="main-container">
+
+        <div class="tab-content" id="tab1">
+            <div class="packages-container">
+                <div class="header-paragraph">PACKAGE'S</div>
+                <div class="packages-images">
+                    <img onclick="openTab('tab4')" src="./image/packages/monte.jpg" alt="">
+                    <img onclick="openTab('tab5')" src="./image/packages/sophe.jpg" alt="">
+                    <img onclick="openTab('tab6')" src="./image/packages/agutayan.jpg" alt="">
+                </div>
+                <div class="packages-images">
+                    <img onclick="openTab('tab7')" src="./image/packages/hinaguan.jpg" alt="">
+                    <img onclick="openTab('tab8')" src="./image/packages/spring-view.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+<!---------------------monte image interface------------------------------------------->
+        <div class="tab-content" id="tab4">
+
+            <div class="slideshow-container">
+                <div class="slideshow-images">
+                    <div class="mySlides fade">
+                        <img src="./image/monte/monte1.jpg" alt="Gallery Image 1">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./image/monte/monte2.jpg" alt="Gallery Image 2">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./image/monte/monte3.jpg" alt="Gallery Image 3">
+                    </div>
+                    <div class="prev" onclick="plusSlides(-1, 'tab4')">❮</div>
+                    <div class="next" onclick="plusSlides(1, 'tab4')">❯</div>
+    
+                
+                <br>
+                
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <div class="right-section">
+                <div class="info">
+                    <div class="header-paragraph">MONTE RICHIE BEACH RESORT TOUR PACKAGE</div>
+                    <div class="text">Experience the tranquility of Monte Richie Beach Resort, the perfect seaside getaway where golden beaches meet blue waves. Exquisite lodging, fine eating, and exhilarating experiences are what await, guaranteeing a memorable vacation. Come relax and experience the beauty of being by the sea like never before.</div>
+                    <div class="text"><p>Location:</p> Barangay San Antonio, Jasaan, Misamis Oriental (along the highway)</div>
+                    <div class="text"><p>Tour Guide:</p> Palagtiw , Angeline(09559811263)</div>
+                    <div class="text"><p>Duration:</p> 30-40 minutes away from the city</div>
+                    <div class="text"><p>Price:</p> PHP 75 for entrance and pool access.
+                    For room check-in accomodation and karaoke rental, you may ask the front desk staff.</div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="footer-images">
+                <img src="./image/monte/monte1.jpg" alt="Gallery Image 1">
+                <img src="./image/monte/monte2.jpg" alt="Gallery Image 2">
+                <img src="./image/monte/monte3.jpg" alt="Gallery Image 3">
+            </div>
+            
+            <a href="createbooking.php" class="appointment-button">CREATE APPOINTMENT</a>
+            
+        </div>
+<!-----------------------------sophe red interface----------------------------->
+<div class="tab-content" id="tab5">
+
+    <div class="slideshow-container">
+        <div class="slideshow-images">
+            <div class="mySlides fade">
+                <img src="./image/sophe/sophe.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/sophe/sophe1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/sophe/sophe3.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/sophe/sophe4.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="prev" onclick="plusSlides(-1, 'tab5')">❮</div>
+            <div class="next" onclick="plusSlides(1, 'tab5')">❯</div>
+
+        
+        <br>
+        
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    
+    <div class="right-section">
+        <div class="info">
+            <div class="header-paragraph">SOPHE RED HOTEL & ONSHORE RESTAURANT TOUR PACKAGE</div>
+            <div class="text">For those looking for luxury, adventure, and relaxation, the Sophie Red Hotel is the perfect weekend retreat. The hotel, which is tucked away along the lovely coastline, provides lovely views of the ocean, calm surroundings, and opulent lodging. The Sophie Red Hotel offers the ideal environment for a restorative getaway,enjoy fine dining at Onshore Restaurant, or simply relax by the pool. With impeccable service, world-class amenities, and a tranquil atmosphere, guests can truly disconnect from the hustle and bustle of everyday life and create lasting memories in a serene paradise..</div>
+            <div class="text"><p>Location:</p> Barangay Bobontugan , Jasaan, Misamis Oriental (along the highway)</div>
+            <div class="text"><p>Tour Guide:</p> Bitos, Ivy(09559811263)</div>
+            <div class="text"><p>Duration:</p> 30-40 minutes away from the city</div>
+            <div class="text"><p>Price:</p>  PHP 1,200 banana boat rental(good for 6 person) and PHP 100 (pool entrance). For room check-in accomodation you may ask the front desk receptionist.</div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer-images">
+        <img src="./image/sophe/sophe1.jpg" alt="Gallery Image 1">
+        <img src="./image/sophe/sophe3.jpg" alt="Gallery Image 2">
+        <img src="./image/sophe/sophe4.jpg" alt="Gallery Image 3">
+    </div>
+    
+    <a href="createbooking.php" class="appointment-button">CREATE APPOINTMENT</a>
+    
+</div>
+
+<!-----------------------------agutayan interface----------------------------->
+<div class="tab-content" id="tab6">
+
+    <div class="slideshow-container">
+        <div class="slideshow-images">
+            <div class="mySlides fade">
+                <img src="./image/agutayan/agutayan.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/agutayan/agutayan2.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/agutayan/agutayan3.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/agutayan/agutayan4.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="prev" onclick="plusSlides(-1, 'tab6')">❮</div>
+            <div class="next" onclick="plusSlides(1, 'tab6')">❯</div>
+
+        
+        <br>
+        
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    
+    <div class="right-section">
+        <div class="info">
+            <div class="header-paragraph">SOPHE RED HOTEL & ONSHORE RESTAURANT TOUR PACKAGE</div>
+            <div class="text">For those looking for luxury, adventure, and relaxation, the Sophie Red Hotel is the perfect weekend retreat. The hotel, which is tucked away along the lovely coastline, provides lovely views of the ocean, calm surroundings, and opulent lodging. The Sophie Red Hotel offers the ideal environment for a restorative getaway,enjoy fine dining at Onshore Restaurant, or simply relax by the pool. With impeccable service, world-class amenities, and a tranquil atmosphere, guests can truly disconnect from the hustle and bustle of everyday life and create lasting memories in a serene paradise..</div>
+            <div class="text"><p>Location:</p> Barangay Bobontugan , Jasaan, Misamis Oriental (along the highway)</div>
+            <div class="text"><p>Tour Guide:</p> Bitos, Ivy(09559811263)</div>
+            <div class="text"><p>Duration:</p> 30-40 minutes away from the city</div>
+            <div class="text"><p>Price:</p>  PHP 1,200 banana boat rental(good for 6 person) and PHP 100 (pool entrance). For room check-in accomodation you may ask the front desk receptionist.</div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer-images">
+        <img src="./image/agutayan/agutayan2.jpg" alt="Gallery Image 1">
+        <img src="./image/agutayan/agutayan3.jpg" alt="Gallery Image 2">
+        <img src="./image/agutayan/agutayan4.jpg" alt="Gallery Image 3">
+    </div>
+    
+    <a href="createbooking.php" class="appointment-button">CREATE APPOINTMENT</a>
+    
+</div>
+
+<!-----------------------------hinaguan interface----------------------------->
+<div class="tab-content" id="tab7">
+
+    <div class="slideshow-container">
+        <div class="slideshow-images">
+            <div class="mySlides fade">
+                <img src="./image/hinaguan/hinaguan.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/hinaguan/hinaguan1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/hinaguan/hinaguan2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/hinaguan/hinaguan3.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="prev" onclick="plusSlides(-1, 'tab7')">❮</div>
+            <div class="next" onclick="plusSlides(1, 'tab7')">❯</div>
+
+        
+        <br>
+        
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    
+    <div class="right-section">
+        <div class="info">
+            <div class="header-paragraph">SOPHE RED HOTEL & ONSHORE RESTAURANT TOUR PACKAGE</div>
+            <div class="text">For those looking for luxury, adventure, and relaxation, the Sophie Red Hotel is the perfect weekend retreat. The hotel, which is tucked away along the lovely coastline, provides lovely views of the ocean, calm surroundings, and opulent lodging. The Sophie Red Hotel offers the ideal environment for a restorative getaway,enjoy fine dining at Onshore Restaurant, or simply relax by the pool. With impeccable service, world-class amenities, and a tranquil atmosphere, guests can truly disconnect from the hustle and bustle of everyday life and create lasting memories in a serene paradise..</div>
+            <div class="text"><p>Location:</p> Barangay Bobontugan , Jasaan, Misamis Oriental (along the highway)</div>
+            <div class="text"><p>Tour Guide:</p> Bitos, Ivy(09559811263)</div>
+            <div class="text"><p>Duration:</p> 30-40 minutes away from the city</div>
+            <div class="text"><p>Price:</p>  PHP 1,200 banana boat rental(good for 6 person) and PHP 100 (pool entrance). For room check-in accomodation you may ask the front desk receptionist.</div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer-images">
+        <img src="./image/sophe/sophe1.jpg" alt="Gallery Image 1">
+        <img src="./image/sophe/sophe3.jpg" alt="Gallery Image 2">
+        <img src="./image/sophe/sophe4.jpg" alt="Gallery Image 3">
+    </div>
+    
+    <a href="createbooking.php" class="appointment-button">CREATE APPOINTMENT</a>
+
+    
+</div>
+
+<!-----------------------------spring view resort interface----------------------------->
+<div class="tab-content" id="tab8">
+
+    <div class="slideshow-container">
+        <div class="slideshow-images">
+            <div class="mySlides fade">
+                <img src="./image/springview/spring-view.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/springview/spring-view1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/springview/spring-view2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./image/springview/spring-view3.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="prev" onclick="plusSlides(-1, 'tab8')">❮</div>
+            <div class="next" onclick="plusSlides(1, 'tab8')">❯</div>
+
+        
+        <br>
+        
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    
+    <div class="right-section">
+        <div class="info">
+            <div class="header-paragraph">SOPHE RED HOTEL & ONSHORE RESTAURANT TOUR PACKAGE</div>
+            <div class="text">For those looking for luxury, adventure, and relaxation, the Sophie Red Hotel is the perfect weekend retreat. The hotel, which is tucked away along the lovely coastline, provides lovely views of the ocean, calm surroundings, and opulent lodging. The Sophie Red Hotel offers the ideal environment for a restorative getaway,enjoy fine dining at Onshore Restaurant, or simply relax by the pool. With impeccable service, world-class amenities, and a tranquil atmosphere, guests can truly disconnect from the hustle and bustle of everyday life and create lasting memories in a serene paradise..</div>
+            <div class="text"><p>Location:</p> Barangay Bobontugan , Jasaan, Misamis Oriental (along the highway)</div>
+            <div class="text"><p>Tour Guide:</p> Bitos, Ivy(09559811263)</div>
+            <div class="text"><p>Duration:</p> 30-40 minutes away from the city</div>
+            <div class="text"><p>Price:</p>  PHP 1,200 banana boat rental(good for 6 person) and PHP 100 (pool entrance). For room check-in accomodation you may ask the front desk receptionist.</div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer-images">
+        <img src="./image/sophe/sophe1.jpg" alt="Gallery Image 1">
+        <img src="./image/sophe/sophe3.jpg" alt="Gallery Image 2">
+        <img src="./image/sophe/sophe4.jpg" alt="Gallery Image 3">
+    </div>
+    
+    <a href="createbooking.php" class="appointment-button">CREATE APPOINTMENT</a>
+
+    
+</div>
+</div>
+
+<footer>
+    <div class="footer-contact">Contact-Us</div>
+    <div class="icons">
+        <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>
+            </li>
+        </ul>
+        <div class="footer-copyright">Copyright © 2024; Designed by 2a</div>
+    </div>
+</footer>
+
+
+    <script src="./javascript/pageSwitcher.js"></script>
+    <script src="./javascript/imageSlider.js"></script>
+    
+</body>
+</html>

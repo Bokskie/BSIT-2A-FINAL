@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.dashboard 
+{
+    background-color: #ffffff;
+    width: 96%;
+    margin: auto;
+    padding: 20px;
+}
+.dashboard-header
+{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: var(--large-fs);
+    font-weight: 550;
+}
+/*---------dashboard display images--------------*/
+.dashboard_toursism-logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.dashboard_toursism-logo .image img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+/*------------dashboard items boxes--------------*/
+.dashboard-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-item {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-item h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.dashboard-item p {
+    font-size: 32px;
+    color: #333;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ff6600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-dashboard_button
+{
+    background-color: #a0a0a0d0;
+}

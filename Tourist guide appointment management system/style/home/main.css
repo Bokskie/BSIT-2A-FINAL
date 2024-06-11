@@ -1,0 +1,56 @@
+.main-container
+{
+    margin: auto;
+    width: 1200px;
+}
+.main-container .package
+{
+    padding: 20px 0 20px 0;
+}
+.main-container .package .images
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 0 40px 0;
+}
+.main-container .package .header-paragraph
+{
+    padding: 6px 0 6px 0;
+    text-align: center;
+    font-size: var(--large-fs);
+    font-weight: 550;
+}
+.main-container .package .images img 
+{
+    border: 4px solid #000000;
+    border-radius: 10px;
+    width: 250px; 
+    height: 250px;
+}
+.main-container .package .packages-button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    background-color: var(--secondary-background);
+    color: var(--tertiary-background);
+    padding: 10px 20px;
+    font-size: var(--medium-fs);
+    font-weight: 550;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-container .package .packages-button:hover 
+{
+    background-color: var(--secondary-background-hover);
+}
+
+@media(max-width: 100px){
+    .main-container
+    {
+        margin: auto;
+        width: 800px;
+    }
+}
